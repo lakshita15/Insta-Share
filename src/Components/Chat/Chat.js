@@ -9,7 +9,7 @@ import Header from '../Header/Header';
 import './Chat.css';
 const useStyles = makeStyles(() => ({  
     textBox:{
-        width: '100%',
+        width: '100%',   
         height: '15%',
         margin:'0.5em',
     },
