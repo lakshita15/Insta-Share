@@ -5,7 +5,7 @@ import SendMessage from './SendMessage';
 import { Avatar, Typography } from '@material-ui/core';
 import { AuthContext } from '../../Context/AuthProvider';
 import { Box } from '@material-ui/core';
-import Header from '../Header/Header';
+import Header from '../Header/Header';  
 import './Chat.css';
 const useStyles = makeStyles(() => ({  
     textBox:{
