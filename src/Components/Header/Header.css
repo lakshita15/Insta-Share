@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header img{
+    height: 5vw;
+}
+.controls{
+    display: flex;
+     width: 25vw;
+   /* margin: 4vw; */
+    align-items: center;
+    justify-content: space-evenly;
+}

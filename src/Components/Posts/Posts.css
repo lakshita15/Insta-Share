@@ -1,0 +1,177 @@
+/* .video-styles
+{
+    height: 80vh;
+} */
+.video-styles2
+{
+    height: 80vh;
+    width: 35vw;
+    
+}
+.videos{
+    position: relative;
+    position: relative;
+    display: flex;
+    place-content: center;
+    margin-top: 2vw;
+    
+}
+.center h4{
+    width: 25vw;
+}
+.place
+{
+    height: 2vh;
+}
+.MuiCardContent-root
+{
+    padding: 0px !important;
+}
+.MuiCardContent-root:last-child
+{
+    padding: 0px !important;
+}
+.likes
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-bottom: 1%;
+}
+.dcontainer
+{
+    display: flex;
+}
+.MuiDialogContent-root:first-child
+{
+    padding-top: 0px !important;
+}
+.MuiDialogContent-root{
+    padding: 0px !important;
+}
+.video-part
+{
+    display: flex;
+    justify-content: center;
+    width: 35vw;
+}
+.info-part
+{
+    flex-grow: 1;
+    flex-basis: 0;
+    width: 42vw;
+}
+.htitle
+{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.video-container {
+  
+    /* height: 80vh;
+    border-radius: 20px;
+    background-color: white; */
+    height: 90%;
+   width: 75vw;
+    justify-content: center;
+    border-top: 0.25px solid lightgray;
+
+    /* overflow: scroll;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; */
+  }
+  .makeStyles-ci-8 {
+    left: 9%;
+    color: #9292922e;
+    cursor: pointer;
+    margin-right: 2vw;
+}
+  /* for chrome and opera */
+  .video-container::-webkit-scrollbar {
+    display: none;
+  }
+.fa
+{
+    position: absolute;
+    bottom: -3vw;
+    display: flex;
+    width: 30rem;
+    padding: 3vw 1vw 1vw 1vw;
+    place-items: center;
+    color: black;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+    justify-content: space-between;
+}
+.fa h4{
+    margin: 0px;
+    margin-top: 1%;
+    margin-left: 2%;
+    color: black;
+}
+.fa button{
+    margin-right: 1rem;
+    color: white;
+    font-weight: 600;
+    background: #0095F6;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    text-align: center;
+}
+
+.icon-styling
+{
+    /* position: absolute;
+    bottom: 0;
+   margin-bottom: 5%;
+   margin-left: 26%; */
+}
+.video-ticker
+{
+    position: absolute;
+    bottom: 0;
+    width: 52%;
+    margin-bottom: 11.7%;
+    margin-left: 25%;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .video-part{
+        display: none;
+
+    }
+    .info-part{
+        width: 80%;
+    }
+  }
+  @media only screen and (max-width: 490px) {
+      .fa{
+          margin-left: 15%;
+      }
+      .video-ticker{
+          margin-left: 16%;
+      }
+      .icon-styling{
+          margin-left: 16%;
+      }
+  }
+  @media only screen and (max-width: 500px) {
+    .right{
+        display: none;
+
+    }
+    .center{
+        width: 100%;
+    }
+    .video-style{
+        /* height: 70vh; */
+    }
+    .insta-head2 img {
+        width: 100%;
+        height: 3.8vh;
+    }
+  }

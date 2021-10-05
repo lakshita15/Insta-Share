@@ -1,0 +1,19 @@
+video{
+    /* height: 98%;
+    width: 25%;
+    scroll-snap-align: start;
+    scroll-snap-align: start; */
+
+    height: 98%;
+    width: 50%;
+    scroll-snap-align: start;
+    scroll-snap-align: start;
+    background: white;
+    padding: 4vw;
+    /* width: 50vw;
+    width: 25vw;
+    margin-left: 12vw;
+    height: 83vh;
+    scroll-snap-align: start; */
+
+}

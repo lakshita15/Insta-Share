@@ -1,0 +1,16 @@
+.feed-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+.center{
+     display: flex;
+   /* height: 86vh; */
+}
+.makeStyles-ci-8 {
+    left: 9%;
+    color: #9292922e;
+    cursor: pointer;
+    margin-right: 2vw;
+}
