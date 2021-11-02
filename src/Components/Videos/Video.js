@@ -6,7 +6,8 @@ const handleMute=(e)=>{
     e.preventDefault(); //prevent pause play default signs of video 
     e.target.muted = !e.target.muted;
 
-}
+}       
+
 const handleautoscroll=(e)=>{
 let next = ReactDOM.findDOMNode(e.target).parentNode.nextSibling;
 if(next){
