@@ -17,7 +17,7 @@ if(next){
 function Video(props) {
     return (
        <>
-       <video  onEnded={handleautoscroll} src={props.source} className='bideo-styles' onClick={handleMute} muted='muted' type ="video/mp4"></video>
+       <video onEnded={handleautoscroll} src={props.source} className='bideo-styles' onClick={handleMute} muted='muted' type ="video/mp4"></video>
        </>
     )
 }
